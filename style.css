@@ -76,7 +76,7 @@ span {
 }
 /* about section */
 .about-me-container {
-  padding: 0 100px;
+  padding: 0 150px;
   height: 600px;
   display: flex;
   align-items: flex-end;
@@ -90,7 +90,7 @@ span {
 .about-me-img img {
   width: 338px;
   height: 536px;
-  margin-bottom: -10px;
+  margin-bottom: -3px;
 }
 .about-me-text-btn {
   width: 50%;
@@ -147,4 +147,39 @@ span {
 .recipie-box-text {
   margin: 0 30px 54px;
   text-align: justify;
+}
+
+/* Followers section */
+.followers {
+  margin: 0 60px 92px;
+}
+.followers-container {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 5%;
+  border-radius: 20px;
+}
+.followers-h {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgba(24, 25, 31, 1);
+  font-size: 48px;
+}
+.followers-p {
+  margin-top: 8px;
+}
+/* footer section */
+footer {
+  text-align: center;
+  height: 256px;
+  background-color: rgba(11, 13, 23, 1);
+}
+.footer-h {
+  margin: 0;
+  padding: 37px 0;
+}
+.footer-p {
+  margin-top: 0;
+  color: white;
 }
